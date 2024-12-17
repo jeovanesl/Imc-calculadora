@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../scr/imgcalcu.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../imc-calculadora/style.css">
+    <title>Calculadora de Imc</title>
+</head>
+<body>
+    <header id="cabeçalho">
+        <img src="img/WhatsApp Image 2024-10-25 at 2.39.52 PM.jpeg" alt="logo do Senac" title="Logo do SENAC">
+ 
+    </header>
+ 
+    <section id="area-form">
+        <div class="conteiner">
+            <h1>Calculadora de Imc</h1>
+            <span></span>
+            <div class="form-group">
+                <label for="peso">Peso (kg)</label>
+                <input type="number" id="peso">
+            </div>
+            <div class="form-group">
+                <label for="altura">altura (m)</label>
+                <input type="number" id="altura">
+            </div>
+ 
+            <button onclick="calvularIMC()">Calcular</button>
+            <p id="resultado"></p>
+           
+        </div>
+ 
+    </section>
+ 
+    <footer id="rodape">
+        &copy;2024-2025 Copyright| Curso de Desnvolvimento de Sistemas | SENAC
+    </footer>
+ 
+    <script src="script.js"></script>
+ 
+</body>
+</html>
